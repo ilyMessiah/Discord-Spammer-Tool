@@ -45,7 +45,14 @@ if user == '2':
 
      if response2.status_code == '200':
          print(f'Spamming')
-         
-     
-     if user == '3':
-     exit()
+
+if KeyboardInterrupt:
+    exit()
+
+if user == '3':
+    try:
+      exit() or KeyboardInterrupt == exit()
+    except Exception as e:
+
+        print(f'{e}')
+
